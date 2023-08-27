@@ -1,4 +1,4 @@
-import 'package:attendance_app/auth.dart';
+import 'package:attendance_app/helper/auth.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {

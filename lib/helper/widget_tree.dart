@@ -1,6 +1,6 @@
-import 'package:attendance_app/auth.dart';
-import 'package:attendance_app/home.dart';
-import 'package:attendance_app/login.dart';
+import 'package:attendance_app/helper/auth.dart';
+import 'package:attendance_app/pages/authentication.dart';
+import 'package:attendance_app/pages/home.dart';
 import 'package:flutter/material.dart';
 
 class WidgetTree extends StatefulWidget {
@@ -19,7 +19,7 @@ class _WidgetTree extends State<WidgetTree> {
         if (snapshot.hasData) {
           return const HomePage();
         } else {
-          return const LoginPage();
+          return const Authentication();
         }
       },
     );
